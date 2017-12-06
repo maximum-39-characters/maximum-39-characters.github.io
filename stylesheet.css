@@ -9,13 +9,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
-  background-color: #E8E9EB;
-  background-image: url("img/background.png");
-
-  font-family: sans-serif;
-  colour: #313638;
-}
+  }
 
 /* global */
 .container {
@@ -25,11 +19,11 @@ body {
 }
 
 .text {
-  color: #313638;
+  color: lime;
 }
 
 .text-bold {
-  color: #313638;
+  color: Lime;
   font-weight: bold;
 }
 
