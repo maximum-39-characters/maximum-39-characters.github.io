@@ -2,60 +2,113 @@
 /* CSS Document */
 
 
-body{
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-	}
+body {
+  /*padding: 0px;
+  margin: 0px;*/
+/*
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;*/
 
-  .text{
-    color: lime;
-  }
+  background-color: #E8E9EB;
 
-  .text1{
-    color: lime;
-    font-weight:bold;
-  }
+  font-family: sans-serif;
+  colour: #313638;
+}
 
-  .copyright{
-    color: lime;
-  }
+/* global */
+.container {
+	width: 80%;
+	margin: 0;
+	overflow: hidden;
+}
 
+.text {
+  color: #313638;
+}
 
-  .mainHead{
-    color: lime;
-    size: 150px;
-    font-weight: bold;
-    font-family: 'Russo One', sans-serif;
-  }
+.text-bold {
+  color: #313638;
+  font-weight: bold;
+}
 
-  /*Nav Bar: */
-  /* Add a black background color to the top navigation */
-  .topnav {
-  	background-color: black;
-      overflow: hidden;
-  }
+.code {
+  font-family: 'Source Code Pro', monospace;
+  color: #313638;
+}
 
-  /* Style the links inside the navigation bar */
-  .topnav a {
-      font-family: 'Russo One', sans-serif;
-  	float: left;
-      display: block;
-      color: lime;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-  }
+.copyright {
+  color: #313638;
+}
 
-  /* Change the color of links on hover */
-  .topnav a:hover {
-      background-color: grey;
-      color: green;
-  }
+.mainHead{
+  color: lime;
+  size: 150px;
+  font-weight: bold;
+  font-family: 'Russo One', sans-serif;
+}
 
-  /* Add a color to the active/current link */
-  .topnav a.active {
-      background-color: #4CAF50;
-      color: white;
-  }
+/* Nav Bar: */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: 'Russo One', sans-serif;
+  float: left;
+  display: block;
+  color: #E4B363;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: grey;
+  color: green;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Main section */
+
+section {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  overflow: hidden;
+}
+
+section h1 {
+	margin: 5px;
+}
+
+section h2 {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+section p {
+	margin: 0;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 10px;
+  padding: 5px;
+  border-top: #313638 3px solid;
+	border-bottom: #313638 3px solid;
+}
