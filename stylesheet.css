@@ -12,6 +12,11 @@ body{
     color: lime;
   }
 
+  .text1{
+    color: lime;
+    font-weight:bold;
+  }
+
   .copyright{
     color: lime;
   }
