@@ -5,12 +5,13 @@
 body {
   /*padding: 0px;
   margin: 0px;*/
-/*
+
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;*/
+  background-size: cover;
 
   background-color: #E8E9EB;
+  background-image: url("img/matrix.gif");
 
   font-family: sans-serif;
   colour: #313638;
