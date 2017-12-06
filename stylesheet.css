@@ -19,7 +19,7 @@ body {
 
 /* global */
 .container {
-	width: 80%;
+	/*width: 80%;*/
 	margin: 0;
 	overflow: hidden;
 }
