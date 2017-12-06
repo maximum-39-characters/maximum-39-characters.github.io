@@ -44,7 +44,7 @@ body {
 
 .mainHead{
   color: lime;
-  size: 150px;
+  size: 500px;
   font-weight: bold;
   font-family: 'Russo One', sans-serif;
 }
@@ -61,7 +61,7 @@ body {
   font-family: 'Russo One', sans-serif;
   float: left;
   display: block;
-  color: #E4B363;
+  color: lime;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
