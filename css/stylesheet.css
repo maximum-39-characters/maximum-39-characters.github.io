@@ -1,23 +1,55 @@
 @charset "utf-8";
 /* CSS Document */
 
+
 body {
+  /*padding: 0px;
+  margin: 0px;*/
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+
+  background-color: #E8E9EB;
+  background-image: url("img/background.png");
+
+  font-family: sans-serif;
+  colour: #313638;
 }
 
-.text{
+/* global */
+.container {
+	/*width: 80%;*/
+	margin: 0;
+	overflow: hidden;
+}
+
+.text {
+  color: #313638;
+}
+
+.text-bold {
+  color: #313638;
+  font-weight: bold;
+}
+
+.code {
+  font-family: 'Source Code Pro', monospace;
+  color: #313638;
+}
+
+.copyright {
+  color: #313638;
+}
+
+.mainHead{
   color: lime;
+  size: 500px;
+  font-weight: bold;
+  font-family: 'Russo One', sans-serif;
 }
 
-.copyright{
-  color: lime;
-}
-
-
-
-/*Nav Bar: */
+/* Nav Bar: */
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: black;
@@ -46,4 +78,38 @@ body {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+/* Main section */
+
+section {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  overflow: hidden;
+}
+
+section h1 {
+	margin: 5px;
+}
+
+section h2 {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+section p {
+	margin: 0;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 10px;
+  padding: 5px;
+  border-top: #313638 3px solid;
+	border-bottom: #313638 3px solid;
 }
