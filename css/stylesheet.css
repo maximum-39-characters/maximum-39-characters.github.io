@@ -45,7 +45,6 @@ body {
 
 .copyright {
   color: lime;
-  background-color: black;
 }
 
 .mainHead{
@@ -118,9 +117,9 @@ footer {
   padding: 5px;
   border-top: #313638 3px solid;
 	border-bottom: #313638 3px solid;
+  background-color: black;
 }
 
 .emphasis{
-  background-color: lime;
-  color: green;
+  color: lime;
 }
