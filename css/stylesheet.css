@@ -44,7 +44,8 @@ body {
 }
 
 .copyright {
-  color: #313638;
+  color: lime;
+  background-color: black;
 }
 
 .mainHead{
