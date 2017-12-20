@@ -118,3 +118,8 @@ footer {
   border-top: #313638 3px solid;
 	border-bottom: #313638 3px solid;
 }
+
+.emphasis{
+  background-color: lime;
+  color: green;
+}
