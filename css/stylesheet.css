@@ -120,5 +120,6 @@ footer {
 }
 
 .emphasis{
-  color: lime;
+  color: black;
+  background-color: green;
 }
