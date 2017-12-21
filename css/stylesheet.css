@@ -37,11 +37,6 @@ body {
   color: #313638;
 }
 
-.justifiedlist {
-  list-style-type: square;
-  list-style-position: inside;
-}
-
 .copyright {
   color: lime;
 }
