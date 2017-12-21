@@ -35,7 +35,7 @@ body {
 .code {
   font-family: 'Source Code Pro', monospace;
   color: #313638;
-  list-style: square;  
+  list-style: square;
 }
 
 .copyright {
@@ -83,7 +83,6 @@ body {
 /* Main section */
 
 section {
-  text-align: center;
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 2%;
@@ -118,4 +117,8 @@ footer {
 .emphasis{
   color: black;
   background-color: green;
+}
+
+.centerText{
+  text-align: center;
 }
