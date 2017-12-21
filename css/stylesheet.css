@@ -35,6 +35,7 @@ body {
 .code {
   font-family: 'Source Code Pro', monospace;
   color: #313638;
+  list-style: square;  
 }
 
 .copyright {
