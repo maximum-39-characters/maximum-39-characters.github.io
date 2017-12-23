@@ -124,3 +124,9 @@ footer {
 .centerText{
   text-align: center;
 }
+
+.underConstruction{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
