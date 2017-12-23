@@ -2,9 +2,9 @@
 /* CSS Document */
 
 
-body .body {
-  /*padding: 0px;
-  margin: 0px;*/
+body {
+  padding: 0px;
+  margin: 0px;
 
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -12,19 +12,22 @@ body .body {
 
   background-color: #E8E9EB;
 
-  font-family: sans-serif;
-  colour: #313638;
+  /* Not sure which one looks better */
+  font: 15px/1.5 roboto, Helvetia, sans-serif;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+  color: #313638;
 }
 
 /* global */
 .container {
+  /* prevents overflow */
 	/*width: 80%;*/
 	margin: 0;
 	overflow: hidden;
 }
 
 .text {
-  font-family: 'Source Code Pro', monospace;
+  /*font-family: Ariel, sans-serif;*/
   color: #313638;
 }
 
@@ -43,13 +46,12 @@ body .body {
   color: lime;
 }
 
-.mainHead{
-  color: lime;
-  size: 500px;
-  font-weight: bold;
-  font-family: 'Russo One', sans-serif;
-  text-align: center;;
+/* Header */
+header {
+  border-top: #577399 3px solid;
+  border-bottom: #577399 3px solid;
 }
+
 
 /* Nav Bar: */
 /* Add a black background color to the top navigation */
@@ -83,7 +85,6 @@ body .body {
 }
 
 /* Main section */
-
 section {
   margin-left: 10%;
   margin-right: 10%;
@@ -94,7 +95,12 @@ section {
 }
 
 section h1 {
-	margin: 5px;
+  margin: 5px;
+  color: lime;
+  size: 500px;
+  font-weight: bold;
+  font-family: 'Russo One', sans-serif;
+  text-align: center;;
 }
 
 section h2 {
@@ -125,7 +131,7 @@ footer {
   text-align: center;
 }
 
-.underConstruction{
+.altBackground{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
