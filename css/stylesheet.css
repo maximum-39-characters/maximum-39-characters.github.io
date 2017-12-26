@@ -70,7 +70,8 @@ header {
   font-family: 'Russo One', sans-serif;
   float: left;
   display: block;
-  color: #577399;
+  /* color: #577399; */
+  color: lime;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -127,7 +128,8 @@ footer {
 }
 
 .emphasis{
-  background-color: grey;
+  /* background-color: grey; */
+  background-color: green;
   color: #577399;
 
   /* border-left: #577399 3px solid;
