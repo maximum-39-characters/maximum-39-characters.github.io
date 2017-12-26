@@ -43,7 +43,8 @@ body {
 }
 
 .copyright {
-  color: lime;
+  color: #577399;
+  text-align: center;
 }
 
 /* Header */
@@ -65,7 +66,7 @@ header {
   font-family: 'Russo One', sans-serif;
   float: left;
   display: block;
-  color: lime;
+  color: #577399;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -75,12 +76,12 @@ header {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: grey;
-  color: green;
+  color: #E7DFDD;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #e8491d;
   color: white;
 }
 
@@ -123,8 +124,12 @@ footer {
 }
 
 .emphasis{
-  color: black;
-  background-color: green;
+  background-color: grey;
+  color: #577399;
+
+  /* border-left: #577399 3px solid;
+  border-right: #577399 3px solid; */
+
 }
 
 .centerText{
@@ -136,3 +141,5 @@ footer {
   background-attachment: fixed;
   background-size: cover;
 }
+
+/* Media queries */
