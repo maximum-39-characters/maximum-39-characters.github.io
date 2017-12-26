@@ -12,9 +12,10 @@ body {
 
   background-color: #E8E9EB;
 
+  /* MAIN FONTS */
   /* Not sure which one looks better */
-  font: 15px/1.5 roboto, Helvetia, sans-serif;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+  font: 15px/1.5;
+	font-family: 'Roboto', Verdana, sans-serif;
   color: #313638;
 }
 
