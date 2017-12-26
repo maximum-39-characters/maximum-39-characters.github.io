@@ -43,28 +43,34 @@ body {
 }
 
 .copyright {
-  color: lime;
+  color: #577399;
+  text-align: center;
 }
 
-/* Header */
+.gallery {
+	width: 100%;
+	height: auto;
+}
+
+/* HEADER */
 header {
   border-top: #577399 3px solid;
   border-bottom: #577399 3px solid;
 }
 
-
-/* Nav Bar: */
+/* NAVIGATION: */
 /* Add a black background color to the top navigation */
-.topnav {
+.navbar {
   background-color: black;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.navbar a {
   font-family: 'Russo One', sans-serif;
   float: left;
   display: block;
+  /* color: #577399; */
   color: lime;
   text-align: center;
   padding: 14px 16px;
@@ -73,18 +79,18 @@ header {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.navbar a:hover {
   background-color: grey;
-  color: green;
+  color: #E7DFDD;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
+.navbar a.active {
+  background-color: #e8491d;
   color: white;
 }
 
-/* Main section */
+/* SECTION */
 section {
   margin-left: 10%;
   margin-right: 10%;
@@ -113,7 +119,6 @@ section p {
 }
 
 /* Footer */
-
 footer {
   margin-top: 10px;
   padding: 5px;
@@ -123,8 +128,13 @@ footer {
 }
 
 .emphasis{
-  color: black;
+  /* background-color: grey; */
   background-color: green;
+  color: #577399;
+
+  /* border-left: #577399 3px solid;
+  border-right: #577399 3px solid; */
+
 }
 
 .centerText{
@@ -136,3 +146,5 @@ footer {
   background-attachment: fixed;
   background-size: cover;
 }
+
+/* Media queries */
