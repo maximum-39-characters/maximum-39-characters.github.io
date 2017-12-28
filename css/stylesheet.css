@@ -66,13 +66,13 @@ header {
 
 /* NAVIGATION: */
 /* Add a black background color to the top navigation */
-.navbar {
+nav {
   background-color: black;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
-.navbar a {
+nav a {
   font-family: 'Russo One', sans-serif;
   float: left;
   display: block;
@@ -85,13 +85,13 @@ header {
 }
 
 /* Change the color of links on hover */
-.navbar a:hover {
+nav a:hover {
   background-color: grey;
   color: #E7DFDD;
 }
 
 /* Add a color to the active/current link */
-.navbar a.active {
+nav a.active {
   background-color: #e8491d;
   color: white;
 }
