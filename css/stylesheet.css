@@ -104,6 +104,9 @@ section {
   padding-left: 2%;
   padding-right: 2%;
   overflow: hidden;
+
+  background-color: #f4f4f4;
+  min-height: 50vh;
 }
 
 section h1 {
