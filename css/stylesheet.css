@@ -15,16 +15,21 @@ body {
   /* MAIN FONTS */
   /* Not sure which one looks better */
   font: 15px/1.5;
-	font-family: 'Roboto', Verdana, sans-serif;
+	font-family: 'Roboto', sans-serif;
+  /* font-family: Verdana, sans-serif; */
   color: #313638;
 }
 
-/* global */
+/* GLOBAL CLASSES */
 .container {
   /* prevents overflow */
 	/*width: 80%;*/
 	margin: 0;
 	overflow: hidden;
+}
+
+p {
+  color: #313638;
 }
 
 .text {
