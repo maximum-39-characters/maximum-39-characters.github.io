@@ -21,20 +21,16 @@ body {
 }
 
 /* GLOBAL CLASSES */
-.container {
-  /* prevents overflow */
-	/*width: 80%;*/
-	margin: 0;
-	overflow: hidden;
-}
 
 p {
   color: #313638;
 }
 
-.text {
-  /*font-family: Ariel, sans-serif;*/
-  color: #313638;
+.container {
+  /* prevents overflow */
+	/*width: 80%;*/
+	margin: 0;
+	overflow: hidden;
 }
 
 .text-bold {
