@@ -152,3 +152,7 @@ footer {
 }
 
 /* Media queries */
+
+.frontPage{
+  font-family: 'Roboto', sans-serif;
+}
