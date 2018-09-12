@@ -1,4 +1,4 @@
-# To do list
+# To do list:
 - actually start some interesting projects
 
 - list details of aforementioned projects on the projects page
@@ -11,7 +11,7 @@
 - list web/email server project details
 
 # Maybe:
+-actually do stuff
 
-
-#probably never
+#probably never:
 -get our shit together and organise stuff
