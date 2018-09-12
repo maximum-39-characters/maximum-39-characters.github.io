@@ -11,3 +11,7 @@
 - list web/email server project details
 
 # Maybe:
+
+
+#probably never
+-get our shit together and organise stuff
