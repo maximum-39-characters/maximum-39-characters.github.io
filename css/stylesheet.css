@@ -161,3 +161,9 @@ footer {
 .title{
   font-size: 32px;
 }
+
+
+/*Dev environment button*/
+.devDiv{
+  float: right;
+}
