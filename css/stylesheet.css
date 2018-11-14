@@ -161,6 +161,7 @@ footer {
 /*Dev environment button*/
 .devDiv{
   float: right;
+  background-color: black;
 }
 
 .devButton{
@@ -168,12 +169,11 @@ footer {
   display: block;
   color: lime;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-.devButton :hover{
+.devButton:hover{
   background-color: grey;
   color: #E7DFDD;
 }
