@@ -86,11 +86,6 @@ nav a:hover {
   color: #E7DFDD;
 }
 
-/* Add a color to the active/current link */
-nav a.active {
-  background-color: #e8491d;
-  color: white;
-}
 
 /* SECTION */
 section {
@@ -166,4 +161,19 @@ footer {
 /*Dev environment button*/
 .devDiv{
   float: right;
+}
+
+.devButton{
+  font-family: 'Russo One', sans-serif;
+  display: block;
+  color: lime;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.devButton :hover{
+  background-color: grey;
+  color: #E7DFDD;
 }
