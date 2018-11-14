@@ -4,7 +4,7 @@ function password() {
   while (testV < 3) {
       if (!pass1)
       history.go(-1);
-if (pass1.toLowerCase() == "12mike34") {
+if (pass1.toLowerCase() == "password") {
   alert('Access Granted');
   window.open('../pages/dev.html');
   break;
